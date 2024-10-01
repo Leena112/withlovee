@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أحبك</title>
+    <meta name="description" content="Just a heartfelt message with music.">
+    <meta name="author" content="Your Name">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #b26969;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to bottom, #f3c2d4, #eca9b8);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            background-color: rgba(165, 135, 135, 0.199);
+            border-radius: 10px;
+        }
+
+        iframe {
+            margin-top: 20px;
+            width: 100%;
+            max-width: 560px;
+            height: 166px; /* Fixed height for better display */
+            border: none; /* Remove border for a cleaner look */
+        }
+
+        div {
+            margin-top: 10px;
+            font-size: 10px;
+            color: #cccccc;
+            line-break: anywhere;
+            word-break: normal;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+            font-weight: 100;
+        }
+    </style>
+</head>
+<body>
+    <h1>just for u fofo</h1>
+    <p style="font-size: 1.2em; text-align: center; color: #fff; margin: 10px 0;">
+        الى العنوان الصحيح عندما يصبح كل شي خاطئ , أحب كل اللحظات معك وارجو ان تستمر حتى الأزل
+    </p>
+    <p style="font-size: 1.2em; text-align: center; color: #fff; margin: 10px 0;">
+        <3
+    </p>
+
+    <!-- SoundCloud Embed Code -->
+    <iframe 
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/216499295&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" 
+        allow="autoplay">
+    </iframe>
+
+    <div>
+        <a href="https://soundcloud.com/ahmed-ghaly-32" title="a7mad_ghaly" target="_blank" style="color: #cccccc; text-decoration: none;">
+            a7mad_ghaly
+        </a> · 
+        <a href="https://soundcloud.com/ahmed-ghaly-32/cgxqg98akn3z" title="عمرو دياب - تملى معاك" target="_blank" style="color: #cccccc; text-decoration: none;">
+            عمرو دياب - تملى معاك
+        </a>
+    </div>
+
+    <script>
+        document.body.addEventListener('click', function() {
+            var iframe = document.querySelector('iframe');
+            var src = iframe.src;
+            iframe.src = src; // Restart the iframe to trigger play
+        });
+    </script>
+</body>
+</html>
